@@ -287,9 +287,6 @@ function send_verify_sms($phone_number, $smbody)
     // dpm($result);
     // 幹～送回來的東西有夠醜
     // $t = '[1]
-    // msgid=0916180121
-    // statuscode=1
-    // AccountPoint=1468';
     $split = explode("\n", $result->data); // 用換行分開
     return $split;
     }
